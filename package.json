@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@bull-board/api": "^4.6.4",
+    "@bull-board/express": "^4.6.4",
+    "bull": "^4.10.1",
+    "bull-arena": "^3.30.1",
+    "express": "^4.18.2"
+  }
+}
