@@ -29,6 +29,10 @@ class BaseQueue {
   async processJob(name, concurrency, callback) {
     await this.queue.process(name, concurrency, callback);
   }
+
+  async differentProcessJob(name,concurrency,path){
+    await this.queue.process(name,concurrency,path)
+  }
 }
 
 module.exports = { BaseQueue };
